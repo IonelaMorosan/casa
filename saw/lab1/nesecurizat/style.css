@@ -1,0 +1,70 @@
+
+#body_bg{ 
+	background-color:#FFF0F5;
+}
+
+#loginform{ 
+	margin-top: 10px;
+	background:#A9D0F5; 
+	border: 2px solid #4B0082; 
+	padding:20px 20px;
+	width:600px; 
+	border-radius:5px; 
+}
+
+
+.antet{
+	background-color: #A9D0F5; 
+	border: 2px solid #4B0082; 
+	border-radius:5px; 
+}
+
+.form {
+	width: 275px;
+	margin-top: 5%;
+	margin-left: 37%;
+	box-shadow: 0 0 30px #bdbdbd;
+	background: #ececef;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	border: 2px solid grey;
+}
+body{
+	background-image: url("img/bg.jpg");
+}
+
+input[type=text], input[type=password] {
+    width: 270px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: 	grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 270px;
+}
+
+.form p{
+	text-align: center;
+	color: grey;
+}
+
+.panou h2{
+	text-align: center;
+	color: grey;
+}
+.panou{
+	box-shadow: 0 0 30px #bdbdbd;
+	background: #ececef;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	border: 2px solid grey;
+}
+

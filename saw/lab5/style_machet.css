@@ -1,0 +1,182 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #7a1f1f;
+  border: none;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #ffb3b3;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+ .navbar-inverse .navbar-nav > li > a:focus{
+    color: #ffb3b3;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #511515;
+}
+
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #511515;
+}  
+    
+.carousel-inner img {
+  width: 100%; 
+  margin: auto;
+  max-height:500px;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+.footer{
+  background-color: #ffedd2;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #7a1f1f;
+  border: none;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #ffb3b3;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+ .navbar-inverse .navbar-nav > li > a:focus{
+    color: #ffb3b3;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #511515;
+}
+
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #511515;
+}  
+    
+.carousel-inner img {
+  width: 100%; 
+  margin: auto;
+  max-height:500px;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+.footer{
+  background-color: #ffedd2;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #511515;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.btn {
+    border: 2px solid #7a1f1f;
+    background-color: white;
+    color: #7a1f1f;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.btn:hover{
+  background: #7a1f1f;
+    color: white;
+    border: 2px solid #7a1f1f;
+  }
+  .btn:active{
+  background: #7a1f1f;
+    color: white;
+    border: 2px solid #7a1f1f;
+  }
+/* Red */
+.danger {
+    border-color: #7a1f1f;
+    color: #7a1f1f;
+}
+
+.danger:hover {
+    background: #7a1f1f;
+    color: white;
+}
+
+form.example input[type=text] {
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #7a1f1f;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    background: #7a1f1f;
+    color: white;
+    font-size: 12px;
+    border: 1px solid #7a1f1f;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #511515;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+p,h2{
+  color: #511515;;
+}
